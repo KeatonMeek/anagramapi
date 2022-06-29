@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\anagramapi\\anagramapi.csproj": {}
+    "C:\\Projects\\anagramapi\\anagramapi.csproj": {}
   },
   "projects": {
-    "C:\\projects\\anagramapi\\anagramapi.csproj": {
+    "C:\\Projects\\anagramapi\\anagramapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\anagramapi\\anagramapi.csproj",
+        "projectUniqueName": "C:\\Projects\\anagramapi\\anagramapi.csproj",
         "projectName": "anagramapi",
-        "projectPath": "C:\\projects\\anagramapi\\anagramapi.csproj",
+        "projectPath": "C:\\Projects\\anagramapi\\anagramapi.csproj",
         "packagesPath": "C:\\Users\\meekk\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\anagramapi\\obj\\",
+        "outputPath": "C:\\Projects\\anagramapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.0-preview-20220612-01, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -51,6 +55,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2-pre.12, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
