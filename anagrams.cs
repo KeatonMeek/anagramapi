@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace anagramapi; 
 
 public class Anagram {
@@ -88,6 +90,7 @@ public class Anagram {
     public class anagramJson {
         public string? letters {get; set;}
         public List<String>? words {get; set;}
+
     }
 
 }

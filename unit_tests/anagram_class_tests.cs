@@ -3,14 +3,50 @@ using Xunit;
 
 public class AnagramClassTests {
 
-    
-  
+    /*
+    Tests the file reader readFile(String filepath) 
+    */
+    [Fact]
     public void readFileTest() {
+        
+        //gets the length of the list of words returned from the file
+        int length = Anagram.readFile(@"C:\projects\anagramapi\american-english-small").Count;
+
+        //tests that the length of the returned list is equal to the expected length of the file
+        Assert.Equal(51142, length);
 
     }
 
- 
+    /*
+    Tests whether the function returnWords(List<String> words, string character) returns the correct list of words based on a specific
+    character given.
+    */
+    [Fact]
     public void returnWordsTest() {
+        
+        //list provided for the method.
+        List<String> words = new List<String> {"happy","hello","hungry","violin","handful","house","wrong","right"};
+        
+        //string to compare words to
+        string character = "h";
+        
+        //expected return
+        List<String> expectedReturn = new List<String>{"happy","hello","hungry","handful","house"};
+        
+        //confirming method returns values equal to expected return
+        Assert.Equal(expectedReturn, Anagram.returnWords(words,character));
+        
+        //provide a different list of words to test
+        words = new List<String> {"titan","tyranny","hungry","turn","tacos","house","temple","drill"};
+        
+        //changes the compare character to "t"
+        character = "t";
+
+        //expected return based on t compare value
+        expectedReturn = new List<String>{"titan","tyranny","turn","tacos","temple"};
+
+        //confirming method returns values equal to expected return
+        Assert.Equal(expectedReturn, Anagram.returnWords(words,character));
         
     }
 
