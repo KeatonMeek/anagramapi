@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\anagramapi\\anagramapi.csproj": {}
+    "C:\\projects\\anagramapi\\anagramapi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\anagramapi\\anagramapi.csproj": {
+    "C:\\projects\\anagramapi\\anagramapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\anagramapi\\anagramapi.csproj",
+        "projectUniqueName": "C:\\projects\\anagramapi\\anagramapi.csproj",
         "projectName": "anagramapi",
-        "projectPath": "C:\\Projects\\anagramapi\\anagramapi.csproj",
+        "projectPath": "C:\\projects\\anagramapi\\anagramapi.csproj",
         "packagesPath": "C:\\Users\\meekk\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\anagramapi\\obj\\",
+        "outputPath": "C:\\projects\\anagramapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
