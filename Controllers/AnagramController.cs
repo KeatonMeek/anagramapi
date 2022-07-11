@@ -13,7 +13,7 @@ public class anagramsController : ControllerBase {
 
         var obj = new anagramJson {
             letters = letters,
-            words = Anagram.anagrams(readFile(@"C:\projects\anagramapi\american-english-small"),letters)
+            words = Anagram.anagrams(readFile("american-english-small"),letters)
         };
 
         return obj;
