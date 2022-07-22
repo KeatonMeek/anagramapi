@@ -10,7 +10,7 @@ public class AnagramClassTests {
     public void readFileTest() {
         
         //gets the length of the list of words returned from the file
-        int length = Anagram.readFile(@"C:\projects\anagramapi\american-english-small").Count;
+        int length = Anagram.readFile("american-english-small").Count;
 
         //tests that the length of the returned list is equal to the expected length of the file
         Assert.Equal(51142, length);
