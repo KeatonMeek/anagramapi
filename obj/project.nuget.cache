@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t9NMz35lDY9KSJor/jPc5ItJoXUbaugkEfgTd+QeTVT3eN4wQdXYLn3kRiPKRJg6J+iFDE/EzMwejxAdc86lYw==",
+  "dgSpecHash": "PXgMoG/cQyVNYVvmZBqdVlbGTKG3+kEHJym/wGCGq7CG3I/udYM/j8SMDJtpAFFxZKt5Z/DBcwGHvu5Ca3jQJg==",
   "success": true,
-  "projectFilePath": "C:\\projects\\anagramapi\\anagramapi.csproj",
+  "projectFilePath": "C:\\Projects\\anagramapi\\anagramapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meekk\\.nuget\\packages\\microsoft.codecoverage\\17.3.0-preview-20220612-01\\microsoft.codecoverage.17.3.0-preview-20220612-01.nupkg.sha512",
     "C:\\Users\\meekk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
